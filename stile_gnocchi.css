@@ -1,157 +1,212 @@
-/* Impostazioni generali */
+/* =====================
+   IMPOSTAZIONI GENERALI
+   ===================== */
+
+/* Il tag <body> rappresenta il corpo del documento HTML, ovvero tutta la parte visibile all'utente */
 body {
-    background-color: #f0fff0;
-    font-family: 'Trebuchet MS', sans-serif;
-    text-align: center;
+    background-color: #f0fff0; /* Colore di sfondo: un verde molto chiaro */
+    font-family: 'Trebuchet MS', sans-serif; /* Font principale del sito */
+    text-align: center; /* Allinea il testo orizzontalmente al centro */
 }
 
-/* Header e footer */
+/* ===========================
+   HEADER E FOOTER DELLA PAGINA
+   =========================== */
+
+/* <header> è l’intestazione della pagina, solitamente contiene titolo o logo */
 header {
-    font-size: 2em;
-    font-weight: bold;
-    color: #006400;
-    margin-top: 20px;
+    font-size: 2em; /* Dimensione doppia rispetto al font normale */
+    font-weight: bold; /* Testo in grassetto */
+    color: #006400; /* Verde scuro */
+    margin-top: 20px; /* Spazio sopra al blocco */
 }
 
+/* <footer> è il piè di pagina, spesso con info finali o copyright */
 footer {
-    font-size: 1.2em;
-    color: #2c3e50;
-    margin-top: 30px;
+    font-size: 1.2em; /* Leggermente più grande del testo normale */
+    color: #2c3e50; /* Grigio-blu */
+    margin-top: 30px; /* Spazio sopra al blocco */
 }
 
-/* Sezioni */
+/* =====================
+   STRUTTURA E SEZIONI
+   ===================== */
+
+/* Classe "container": usata per racchiudere il contenuto centrale */
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 900px; /* Larghezza massima per mantenere leggibilità */
+    margin: 0 auto; /* Centra il blocco orizzontalmente */
+    padding: 20px; /* Spazio interno su tutti i lati */
 }
 
+/* Classe "section": applicata alle varie sezioni come ingredienti, ricetta, ecc. */
 .section {
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* Spazio inferiore per separare visivamente le sezioni */
 }
 
-/* Titoli */
+/* ============================
+   TITOLI DI SEZIONE (<h2>-<h4>)
+   ============================ */
+
 h2, h3, h4 {
-    color: #2e8b57;
-    font-family: 'Garamond', serif;
+    color: #2e8b57; /* Verde bosco */
+    font-family: 'Garamond', serif; /* Font elegante serif per i titoli */
 }
 
-/* Immagini */
+/* =====================
+   IMMAGINI (<img>)
+   ===================== */
+
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
+    max-width: 100%; /* L’immagine non supera mai la larghezza del contenitore */
+    height: auto; /* Altezza proporzionale per mantenere le proporzioni */
+    display: block; /* Rende l’immagine un blocco per poterla centrare */
+    margin: 20px auto; /* Centra l'immagine orizzontalmente e aggiunge spazio sopra/sotto */
 }
 
-/* Elenchi */
+/* =====================
+   ELENCHI ORDINATI <ol>
+   ===================== */
+
 ol {
-    text-align: left;
-    margin-left: 20%;
-    list-style-type: decimal;
+    text-align: left; /* Allinea il testo a sinistra per la leggibilità */
+    margin-left: 20%; /* Spazio a sinistra per indentazione */
+    list-style-type: decimal; /* Usa numeri per elencare */
 }
+
+/* =======================
+   ELENCHI NON ORDINATI <ul>
+   ======================= */
 
 ul {
-    text-align: left;
-    margin-left: 20%;
-    list-style-type: disc;
+    text-align: left; /* Anche qui testo allineato a sinistra */
+    margin-left: 20%; /* Indentazione come per gli <ol> */
+    list-style-type: disc; /* Usa pallini per elencare */
 }
 
-/* Citazioni e blocchi */
+/* ========================
+   CITAZIONI E RIFERIMENTI
+   ======================== */
+
+/* <blockquote>: visualizzazione di una citazione estesa */
 blockquote {
-    font-style: italic;
-    margin: 20px 0;
+    font-style: italic; /* Corsivo per dare un tono riflessivo */
+    margin: 20px 0; /* Spazio sopra e sotto */
 }
 
+/* <cite>: nome dell'autore di una citazione */
 cite {
-    font-weight: bold;
+    font-weight: bold; /* Evidenzia il nome con grassetto */
 }
 
-/* Tag HTML specifici */
+/* ================================
+   TAG HTML SPECIFICI (testo inline)
+   ================================ */
+
+/* <u>: sottolineatura */
 u {
     text-decoration: underline;
 }
 
+/* <strong>: testo importante */
 strong {
     font-weight: bold;
 }
 
+/* <em>: enfasi sul testo */
 em {
     font-style: italic;
 }
 
-/* Codice */
+/* ========================
+   CODICE E BLOCCO PRE-FORMATTATO
+   ======================== */
+
+/* <pre>: blocco di testo preformattato, usato per codice */
 pre {
-    background-color: #e0f2e0;
-    padding: 15px;
-    border: 1px solid #008000;
-    overflow-x: auto;
-    text-align: left;
+    background-color: #e0f2e0; /* Sfondo verde pallido */
+    padding: 15px; /* Spazio interno */
+    border: 1px solid #008000; /* Bordo verde */
+    overflow-x: auto; /* Barra di scorrimento orizzontale se necessario */
+    text-align: left; /* Allineamento classico del codice */
 }
 
+/* <code>: codice inline */
 code {
-    font-family: monospace;
+    font-family: monospace; /* Font a spaziatura fissa per il codice */
 }
 
-/* Personalizzazione per gli ID specifici */
+/* ===========================
+   PERSONALIZZAZIONE PER SEZIONI
+   =========================== */
 
-/* Ingredienti */
+/* Sezione ingredienti */
 #ingredienti {
-    background-color: #e6ffe6;
+    background-color: #e6ffe6; /* Sfondo verde molto chiaro */
     padding: 20px;
-    border: 2px solid #2e8b57;
-    border-radius: 8px;
+    border: 2px solid #2e8b57; /* Bordo verde bosco */
+    border-radius: 8px; /* Angoli arrotondati */
 }
 
+/* Titolo della sezione ingredienti */
 #ingredienti h2 {
-    color: #006400;
+    color: #006400; /* Verde scuro */
     text-decoration: underline;
 }
 
-/* Ricetta */
+/* Sezione preparazione */
 #ricetta {
-    background-color: #f0f8ff;
+    background-color: #f0f8ff; /* Azzurrino tenue */
     padding: 20px;
-    border: 2px solid #4682b4;
+    border: 2px solid #4682b4; /* Bordo blu */
     border-radius: 8px;
 }
 
+/* Titolo della sezione ricetta */
 #ricetta h3 {
-    color: #4169e1;
+    color: #4169e1; /* Blu royal */
     font-style: italic;
 }
 
-/* Tabella Nutrizionale */
+/* Sezione tabella nutrizionale */
 #tabella-nutrizione {
-    background-color: #fafad2;
+    background-color: #fafad2; /* Giallo chiaro (pastello) */
     padding: 20px;
-    border: 2px solid #daa520;
+    border: 2px solid #daa520; /* Oro scuro */
     border-radius: 8px;
 }
 
+/* Titolo della sezione nutrizionale */
 #tabella-nutrizione h4 {
-    color: #b8860b;
+    color: #b8860b; /* Marrone dorato */
     font-weight: bold;
     margin-bottom: 15px;
 }
 
+/* ===================
+   STILE PER LA TABELLA
+   =================== */
+
+/* Tag <table>: usato per impaginare dati */
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%; /* Tabella larga quanto il contenitore */
+    border-collapse: collapse; /* Elimina spazi tra bordi delle celle */
     margin-top: 20px;
-    text-align: center;
+    text-align: center; /* Centra il testo all’interno delle celle */
 }
 
+/* Bordi di tabella e celle */
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; /* Bordi grigio chiaro */
 }
 
+/* Celle: intestazioni (th) e dati (td) */
 th, td {
-    padding: 8px;
+    padding: 8px; /* Spazio interno per rendere leggibile il contenuto */
 }
 
+/* <caption>: titolo descrittivo della tabella */
 caption {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 1.5em; /* Più grande del testo normale */
+    margin-bottom: 10px; /* Spazio tra titolo e tabella */
 }
-
