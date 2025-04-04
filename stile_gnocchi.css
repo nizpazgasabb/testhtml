@@ -39,10 +39,7 @@ footer {
     padding: 20px; /* Spazio interno su tutti i lati */
 }
 
-/* Classe "section": applicata alle varie sezioni come ingredienti, ricetta, ecc. */
-.section {
-    margin-bottom: 40px; /* Spazio inferiore per separare visivamente le sezioni */
-}
+
 
 /* ============================
    TITOLI DI SEZIONE (<h2>-<h4>)
