@@ -1,0 +1,157 @@
+/* Impostazioni generali */
+body {
+    background-color: #f0fff0;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/* Header e footer */
+header {
+    font-size: 2em;
+    font-weight: bold;
+    color: #006400;
+    margin-top: 20px;
+}
+
+footer {
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Sezioni */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+/* Titoli */
+h2, h3, h4 {
+    color: #2e8b57;
+    font-family: 'Garamond', serif;
+}
+
+/* Immagini */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Elenchi */
+ol {
+    text-align: left;
+    margin-left: 20%;
+    list-style-type: decimal;
+}
+
+ul {
+    text-align: left;
+    margin-left: 20%;
+    list-style-type: disc;
+}
+
+/* Citazioni e blocchi */
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+cite {
+    font-weight: bold;
+}
+
+/* Tag HTML specifici */
+u {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Codice */
+pre {
+    background-color: #e0f2e0;
+    padding: 15px;
+    border: 1px solid #008000;
+    overflow-x: auto;
+    text-align: left;
+}
+
+code {
+    font-family: monospace;
+}
+
+/* Personalizzazione per gli ID specifici */
+
+/* Ingredienti */
+#ingredienti {
+    background-color: #e6ffe6;
+    padding: 20px;
+    border: 2px solid #2e8b57;
+    border-radius: 8px;
+}
+
+#ingredienti h2 {
+    color: #006400;
+    text-decoration: underline;
+}
+
+/* Ricetta */
+#ricetta {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border: 2px solid #4682b4;
+    border-radius: 8px;
+}
+
+#ricetta h3 {
+    color: #4169e1;
+    font-style: italic;
+}
+
+/* Tabella Nutrizionale */
+#tabella-nutrizione {
+    background-color: #fafad2;
+    padding: 20px;
+    border: 2px solid #daa520;
+    border-radius: 8px;
+}
+
+#tabella-nutrizione h4 {
+    color: #b8860b;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
