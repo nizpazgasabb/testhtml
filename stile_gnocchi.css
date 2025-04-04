@@ -139,6 +139,7 @@ code {
 
 /* Sezione ingredienti */
 #ingredienti {
+    margin-bottom: 40px;
     background-color: #e6ffe6; /* Sfondo verde molto chiaro */
     padding: 20px;
     border: 2px solid #2e8b57; /* Bordo verde bosco */
@@ -153,6 +154,7 @@ code {
 
 /* Sezione preparazione */
 #ricetta {
+    margin-bottom: 40px; 
     background-color: #f0f8ff; /* Azzurrino tenue */
     padding: 20px;
     border: 2px solid #4682b4; /* Bordo blu */
@@ -161,12 +163,14 @@ code {
 
 /* Titolo della sezione ricetta */
 #ricetta h3 {
+    margin-bottom: 40px; 
     color: #4169e1; /* Blu royal */
     font-style: italic;
 }
 
 /* Sezione tabella nutrizionale */
 #tabella-nutrizione {
+    margin-bottom: 40px;
     background-color: #fafad2; /* Giallo chiaro (pastello) */
     padding: 20px;
     border: 2px solid #daa520; /* Oro scuro */
