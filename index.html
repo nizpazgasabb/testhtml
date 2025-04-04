@@ -1,31 +1,56 @@
+<!-- Indica che il documento è in HTML5 -->
 <!DOCTYPE html>
+
+<!-- Elemento radice del documento HTML, con lingua impostata su italiano -->
 <html lang="it">
+
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- Contiene metadati e collegamenti, non visibili direttamente nella pagina -->
+
+    <!-- Definisce il titolo della pagina, visibile nella scheda del browser -->
     <title>Ricetta Gnocchi al Pesto</title>
+
+    <!-- Collega un foglio di stile esterno -->
     <link rel="stylesheet" href="stile_gnocchi.css">
+
+    <!-- Inserisce regole CSS direttamente nella pagina -->
     <style>
+        /* Imposta colore di sfondo, tipo di carattere e allineamento del corpo della pagina */
         body {
-            background-color: #f0fff0;
-            font-family: 'Trebuchet MS', sans-serif;
+            background-color: #f0fff0; /* colore di sfondo */
+            font-family: 'Trebuchet MS', sans-serif; /* tipo di carattere */
             text-align: center;
         }
+
+        /* Imposta colore e font per h2, h3, h4 */
         h2, h3, h4 {
-            color: #2e8b57;
-            font-family: 'Garamond', serif;
+            color: #2e8b57; /* colore del testo */
+            font-family: 'Garamond', serif; /* tipo di carattere */
         }
     </style>
 </head>
+
+<!-- Contenuto visibile della pagina -->
 <body>
+
+    <!-- Intestazione della pagina -->
     <header><u>Ricetta degli Gnoooocchi al Pesto</u></header>
+
+    <!-- Divisione generica per contenere elementi -->
     <div class="container">
-        <img src="gnocchi.jpg" alt="Gnocchi al pesto">
-        <h1 style="color: #006400; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Istruzioni</h1>
-        
+
+        <!-- Titolo principale della sezione -->
+        <h1 style="color: #006400; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">
+            Istruzioni
+        </h1>
+
+        <!-- Sottosezione per gli ingredienti -->
         <div id="ingredienti" class="section">
+            <!-- Titolo di secondo livello -->
             <h2>Ingredienti</h2>
+
             <ol>
+                <!-- Testo in grassetto per evidenziare -->
                 <li><strong>500g di gnocchi di patate</strong></li>
                 <li>50g di foglie di basilico fresco</li>
                 <li>30g di pinoli</li>
@@ -35,10 +60,14 @@
                 <li>Sale q.b.</li>
             </ol>
         </div>
-        
+
+        <!-- Sottosezione per la preparazione -->
         <div id="ricetta" class="section">
+            <!-- Titolo di terzo livello -->
             <h3>Preparazione</h3>
+
             <ul>
+                <!-- Testo enfatizzato (corsivo) -->
                 <li><em>Lavare</em> e asciugare le foglie di basilico.</li>
                 <li>In un mortaio, pestare l'aglio con un pizzico di sale.</li>
                 <li>Aggiungere i pinoli e continuare a pestare.</li>
@@ -49,21 +78,33 @@
                 <li>Servire immediatamente, guarnendo con qualche foglia di basilico fresco.</li>
             </ul>
         </div>
-        
+
+        <!-- Sottosezione con tabella nutrizionale -->
         <div id="tabella-nutrizione" class="section">
+            <!-- Titolo di quarto livello -->
             <h4>Valori Nutrizionali (per porzione)</h4>
+
             <table summary="Tabella nutrizionale degli gnocchi al pesto">
+                <!-- Titolo descrittivo della tabella -->
                 <caption>Informazioni Nutrizionali</caption>
+
                 <tr>
+                    <!-- Riga con una cella che si estende su due righe -->
                     <th rowspan="2">Calorie</th>
+
+                    <!-- Cella che si estende su tre colonne -->
                     <th colspan="3">Macronutrienti</th>
                 </tr>
+
                 <tr>
+                    <!-- Intestazioni delle colonne della seconda riga -->
                     <th>Carboidrati</th>
                     <th>Proteine</th>
                     <th>Grassi</th>
                 </tr>
+
                 <tr>
+                    <!-- Celle di contenuto (dati) -->
                     <td>450 kcal</td>
                     <td>60g</td>
                     <td>12g</td>
@@ -71,38 +112,46 @@
                 </tr>
             </table>
         </div>
-        
+
+        <!-- Citazione evidenziata graficamente -->
         <blockquote>
             "La cucina è il cuore della casa, e il pesto ne è l'anima."
         </blockquote>
-        
+
         <p>
+            <!-- Nome dell’autore di una citazione -->
             Come diceva <cite>Pellegrino Artusi</cite>: <q>La cucina è una bricconcella; spesso e volentieri fa disperare, ma dà anche piacere, perché quelle cose che si fanno con più stento sono poi le più grate.</q>
         </p>
-        
+
         <p>
+            <!-- Testo importante in grassetto -->
             L'acqua bolle a <strong>100 gradi Celsius</strong> e la formula chimica dell'acqua è H<sub>2</sub>O.<br>
             Il numero di Avogadro è <em>6,022 × 10<sup>23</sup></em> mol<sup>-1</sup>.
         </p>
-        
+
         <h3>Gnocchi al pesto per programmatori</h3>
+
+        <!-- Sezione per codice preformattato (non commentata perché fuori dalla richiesta) -->
         <pre>
-            
-// Metodo per preparare gli gnocchi al pesto
-function preparaGnocchi() {
-    console.log("Lavare e asciugare il basilico");
-    console.log("Pestare aglio e sale nel mortaio");
-    console.log("Aggiungere pinoli e continuare a pestare");
-    console.log("Unire basilico e schiacciare fino a crema");
-    console.log("Incorporare formaggi e olio");
-    console.log("Cuocere gli gnocchi e condire con il pesto");
-    console.log("Servire caldo con guarnizione di basilico fresco");
-}
-preparaGnocchi();
-           
+            // Metodo per preparare gli gnocchi al pesto
+            function preparaGnocchi() {
+                console.log("Lavare e asciugare il basilico");
+                console.log("Pestare aglio e sale nel mortaio");
+                console.log("Aggiungere pinoli e continuare a pestare");
+                console.log("Unire basilico e schiacciare fino a crema");
+                console.log("Incorporare formaggi e olio");
+                console.log("Cuocere gli gnocchi e condire con il pesto");
+                console.log("Servire caldo con guarnizione di basilico fresco");
+            }
+            preparaGnocchi();
         </pre>
     </div>
-    <footer><u>Buon Appetito!</u> - <strong>Ricetta Tradizionale Italiana</strong></footer>
-</body>
-</html>
 
+    <!-- Sezione finale della pagina -->
+    <footer>
+        <u>Buon Appetito!</u> - 
+        <strong>Ricetta Tradizionale Italiana</strong>
+    </footer>
+</body>
+
+</html>
